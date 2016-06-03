@@ -27,7 +27,7 @@ public class PlagiarismChecker {
      */
     public static void main(String[] args) throws IOException, InterruptedException {
         // TODO code application logic here
-        String directory = "/media/tanveer/Audio/t";
+        String directory = "I:\\plagiarism pdf";
         File file = new File(directory);
         File[] pdfs = file.listFiles();
         ArrayList<Map<String,Integer>> maps = new ArrayList<Map<String,Integer>>();
@@ -109,7 +109,7 @@ public class PlagiarismChecker {
                                }
                                
                            }
-                           //System.out.println(plaggedParagraph);
+                           System.out.println(plaggedParagraph);
                            
                        }
                    }
